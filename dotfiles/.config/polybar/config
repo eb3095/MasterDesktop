@@ -847,7 +847,7 @@ unknown-as-up = true
 format-connected = %{A1:gnome-control-center network &:}%{A3:~/.config/master-desktop/scripts/getNetData.sh enp3s0:}<label-connected>%{A}%{A}
 format-connected-padding = 0
 
-format-disconnected = %{A1:gnome-control-center network &:}<label-disconnected>%{A}
+format-disconnected = %{A1:systemsettings5 kcm_networkmanagement -style kvantum &:}<label-disconnected>%{A}
 format-disconnected-padding = 0
 
 label-connected = ﯴ
