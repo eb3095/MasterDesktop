@@ -1,0 +1,153 @@
+/*
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Mail : adi1090x@gmail.com
+ * Github : @adi1090x
+ * Reddit : @adi1090x
+ *
+ */
+
+configuration {
+    font:                           "Arial 10";
+    show-icons:                     true;
+	icon-theme: 					"Papirus";
+    display-drun: 					"";
+    drun-display-format:            "{name}";
+    threads:                        0;
+    scroll-method:                  0;
+    disable-history:                false;
+    fullscreen:                     false;
+	hide-scrollbar: 				true;
+	sidebar-mode: 					false;
+}
+
+* {
+    background:                     argb:551d1f28;
+    background-invis:               argb:00000000;
+    background-alt:                 #282a36;
+    border-search:                  #575757;
+    foreground:                     #fdfdfd;
+    foreground-search:              #FFFFFF;
+    border:               			#282a36;
+    border-sel:               		#3df56e;
+    selected:               		#282a36;
+    urgent:                         #f37f97;
+}
+
+window {
+    transparency:                   "real";
+    background-color:               @background;
+    text-color:                     @foreground;
+    height:                         500px;
+    width:                          25%;
+    location:                       southwest;
+    anchor:                         west;
+    x-offset:                       15px;
+    y-offset:                       -265px;
+}
+
+prompt {
+    enabled: 						true;
+	padding: 						0px 8px 0px 4px;
+	background-color: 				@background-alt;
+	text-color: 					@foreground;
+	font:							"FiraCode Nerd Font Mono 20";
+}
+
+
+inputbar {
+    background-color:               @background-alt;
+    text-color:                     @foreground-search;
+    expand:                         false;
+    border:                  		0px 0px 0px 0px;
+    border-color:                  	@border;
+    margin:                         0px 0px 0px 0px;
+    padding:                        2px 2px 2px 2px;
+    position:                       center;
+    border:                  		1px 1px 1px 1px;
+    border-color:                  	@border-search;
+}
+
+entry {
+    background-color:               @background-alt;
+    text-color:                     @foreground-search;
+    placeholder-color:              @foreground-search;
+    expand:                         true;
+    horizontal-align:               0;
+    padding:                        8px 2px 2px 2px;
+    placeholder:                    "Search Apps";
+    blink:                          true;
+}
+
+case-indicator {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    spacing:                        0;
+}
+
+
+listview {
+    background-color:               @background-invis;
+    columns:                        2;
+    spacing:                        4px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+}
+
+mainbox {
+    background-color:               @background;
+    children:                       [ inputbar, listview ];
+    spacing:                       	10px;
+    padding:                        8px 15px 8px 15px;
+}
+
+element {
+    background-color:               @background-invis;
+    text-color:                     @foreground;
+    orientation:                    vertical;
+    border-radius:                  0px;
+    margin:                         0px 5px 0px 5px;
+    padding:                        10px 0px 10px 5px;
+}
+
+element-icon {
+    size:                           64px;
+    border:                         0px;
+}
+
+element-text {
+    expand:                         true;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+    border-radius:                  9px;
+}
+
+element normal.active,
+element alternate.active {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+}
+
+element selected {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+    border:                  		0px 0px 2px 0px;
+    border-color:                  	@border-sel;
+}
+
+element selected.urgent {
+    background-color:               @urgent;
+    text-color:                     @foreground;
+}
+
+element selected.active {
+    background-color:               @background-alt;
+    color:                          @foreground;
+}
