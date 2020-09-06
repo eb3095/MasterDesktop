@@ -18,7 +18,7 @@ A modern minimalist desktop environment for Arch Linux
 ![alt text](https://github.com/eb3095/MasterDesktop/blob/master/screenshots/DEScreen3.png "Pixelated lock screen")
 
 ### Credits
-[View the credits](https://github.com/eb3095/MasterDesktop/blob/master/README.md)
+[View the credits](https://github.com/eb3095/MasterDesktop/blob/master/CREDITS.md)
 
 If your name is not listed in the above link or there is a violation of copyrights of some sort,
 please reach out and I will do my best to sort it out quickly. There were a lot of moving peices
