@@ -71,7 +71,7 @@ sed -i -e "s/{{INTERFACE}}/${INTERFACE}/g" ./dotfiles/.config/polybar/config
 # Install Bash-It
 git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 ~/.bash_it/install.sh --silent
-sed -i -e 's/bobby/powerline-multiline/g' ~/.bashrc
+sed -i -e 's/bobby/powerline/g' ~/.bashrc
 
 # Install files
 cp -rf ./dotfiles/ ~/
