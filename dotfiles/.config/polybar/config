@@ -128,7 +128,7 @@ foreground = #FFFFFF
 background = #1E222E
 font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
 
-modules-center = workspace1 workspace4 workspace7 workspace10
+modules-center = workspace1 workspace2 workspace3 workspace4
 
 ################################################################################
 [bar/middle2]
@@ -146,7 +146,7 @@ foreground = #FFFFFF
 background = #1E222E
 font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
 
-modules-center = workspace2 workspace5 workspace8 workspace11
+modules-center = workspace5 workspace6 workspace7 workspace8
 
 ################################################################################
 [bar/middle3]
@@ -164,7 +164,133 @@ foreground = #FFFFFF
 background = #1E222E
 font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
 
-modules-center = workspace3 workspace6 workspace9 workspace12
+modules-center = workspace9 workspace10 workspace11 workspace12
+
+################################################################################
+[bar/middle4]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace13 workspace14 workspace15 workspace16
+
+################################################################################
+[bar/middle5]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace17 workspace18 workspace19 workspace20
+
+################################################################################
+[bar/middle6]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace21 workspace22 workspace23 workspace24
+
+################################################################################
+[bar/middle7]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace25 workspace26 workspace27 workspace28
+
+################################################################################
+[bar/middle8]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace29 workspace30 workspace31 workspace32
+
+################################################################################
+[bar/middle9]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace33 workspace34 workspace35 workspace36
+
+################################################################################
+[bar/middle10]
+inherit = bar/global
+width = 150px
+
+override-redirect = true
+fixed-center = false
+
+offset-x = 50%:-75px
+offset-y = 8px
+
+radius = 0
+foreground = #FFFFFF
+background = #1E222E
+font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
+
+modules-center = workspace37 workspace38 workspace39 workspace40
 
 ################################################################################
 [bar/cpu]
@@ -337,7 +463,7 @@ click-middle = killall -s 9 tilix
 type = custom/text
 content = "%{T4}%{T-}"
 content-font = 4
-click-left = i3lock-fancy -p -g -- maim &
+click-left = ~/.config/master-desktop/scripts/i3lock-fancy.sh -p -g -- maim &
 
 ###############################################################################
 [module/cpu]
@@ -361,39 +487,39 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 1 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+1
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 1 ${monitor}
 
 ###############################################################################
 [module/workspace2]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 2 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 2 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+2
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 2 ${monitor}
 
 ###############################################################################
 [module/workspace3]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 3 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 3 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+3
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 3 ${monitor}
 
 ###############################################################################
 [module/workspace4]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 4 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 4 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+4
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 4 ${monitor}
 
 ###############################################################################
 [module/workspace5]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 5 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 5 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+5
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 5 ${monitor}
 
 ###############################################################################
 [module/workspace6]
@@ -401,7 +527,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 6 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+6
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 6 ${monitor}
 
 ###############################################################################
 [module/workspace7]
@@ -409,39 +535,39 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 7 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+7
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 7 ${monitor}
 
 ###############################################################################
 [module/workspace8]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 8 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 8 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+8
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 8 ${monitor}
 
 ###############################################################################
 [module/workspace9]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 9 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 9 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+9
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 9 ${monitor}
 
 ###############################################################################
 [module/workspace10]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 10 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 10 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+0
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 10 ${monitor}
 
 ###############################################################################
 [module/workspace11]
 type = custom/script
-exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 11 
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 11 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+minus
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 11 ${monitor}
 
 ###############################################################################
 [module/workspace12]
@@ -449,7 +575,231 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 12 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh Super_L+Ctrl+equal
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 12 ${monitor}
+
+###############################################################################
+[module/workspace13]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 13 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 13 ${monitor}
+
+###############################################################################
+[module/workspace14]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 14 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 14 ${monitor}
+
+###############################################################################
+[module/workspace15]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 15 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 15 ${monitor}
+
+###############################################################################
+[module/workspace16]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 16 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 16 ${monitor}
+
+###############################################################################
+[module/workspace17]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 17 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 17 ${monitor}
+
+###############################################################################
+[module/workspace18]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 18 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 18 ${monitor}
+
+###############################################################################
+[module/workspace19]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 19 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 19 ${monitor}
+
+###############################################################################
+[module/workspace20]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 20 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 20 ${monitor}
+
+###############################################################################
+[module/workspace21]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 21 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 21 ${monitor}
+
+###############################################################################
+[module/workspace22]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 22 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 22 ${monitor}
+
+###############################################################################
+[module/workspace23]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 23 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 23 ${monitor}
+
+###############################################################################
+[module/workspace24]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 24 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 24 ${monitor}
+
+###############################################################################
+[module/workspace25]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 25 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 25 ${monitor}
+
+###############################################################################
+[module/workspace26]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 26 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 26 ${monitor}
+
+###############################################################################
+[module/workspace27]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 27 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 27 ${monitor}
+
+###############################################################################
+[module/workspace28]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 28 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 28 ${monitor}
+
+###############################################################################
+[module/workspace29]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 29 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 29 ${monitor}
+
+###############################################################################
+[module/workspace30]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 30 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 30 ${monitor}
+
+###############################################################################
+[module/workspace31]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 31 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 31 ${monitor}
+
+###############################################################################
+[module/workspace32]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 32 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 32 ${monitor}
+
+###############################################################################
+[module/workspace33]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 33 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 33 ${monitor}
+
+###############################################################################
+[module/workspace34]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 34 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 34 ${monitor}
+
+###############################################################################
+[module/workspace35]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 35 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 35 ${monitor}
+
+###############################################################################
+[module/workspace36]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 36 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 36 ${monitor}
+
+###############################################################################
+[module/workspace37]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 37 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 37 ${monitor}
+
+###############################################################################
+[module/workspace38]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 38 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 38 ${monitor}
+
+###############################################################################
+[module/workspace39]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 39 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 39 ${monitor}
+
+###############################################################################
+[module/workspace40]
+type = custom/script
+exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 40 
+label = "%output%"
+tail = true
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 40 ${monitor}
 
 ###############################################################################
 [module/volume2]

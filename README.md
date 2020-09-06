@@ -12,6 +12,14 @@ A modern minimalist desktop environment for Arch Linux
 * Mobile phone integration
 * Update indicator
 
+### Drawbacks
+Monitors are limited to 20 for now. Crazy right?! They are too static and config generation is required on install
+to make it more flexible.
+
+### Install
+The installer for this does not yet work. Some reworking is in order to get specific modules functioning universally
+opposed to uniquely to my setup.
+
 ### Screenshots
 ![alt text](https://github.com/eb3095/MasterDesktop/blob/master/screenshots/DEScreen1.png "Desktop")
 ![alt text](https://github.com/eb3095/MasterDesktop/blob/master/screenshots/DEScreen2.png "Tiling, themeing, terminal, and file browser")

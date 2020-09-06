@@ -1,15 +1,13 @@
 #!/bin/bash
 
 xdotool key $1
-echo "PING" | netcat -c 127.0.0.1 62001 &
-echo "PING" | netcat -c 127.0.0.1 62002 &
-echo "PING" | netcat -c 127.0.0.1 62003 &
-echo "PING" | netcat -c 127.0.0.1 62004 &
-echo "PING" | netcat -c 127.0.0.1 62005 &
-echo "PING" | netcat -c 127.0.0.1 62006 &
-echo "PING" | netcat -c 127.0.0.1 62007 &
-echo "PING" | netcat -c 127.0.0.1 62008 &
-echo "PING" | netcat -c 127.0.0.1 62009 &
-echo "PING" | netcat -c 127.0.0.1 62010 &
-echo "PING" | netcat -c 127.0.0.1 62011 &
-echo "PING" | netcat -c 127.0.0.1 62012 &
+
+for ctr in {1..40}
+do
+    if (( $CTR > 9 )); then
+        PORT=620${CTR}
+    else
+        PORT=6200${CTR}
+    fi
+   echo "PING" | netcat -c 127.0.0.1 ${PORT} &
+done
