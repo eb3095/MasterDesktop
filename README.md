@@ -13,7 +13,7 @@ A modern minimalist desktop environment for Arch Linux
 * Update indicator
 
 ### Drawbacks
-Monitors are limited to 20 for now. Crazy right?! They are too static and config generation is required on install
+Monitors are limited to 10 for now. Crazy right?! They are too static and config generation is required on install
 to make it more flexible.
 
 ### Install
