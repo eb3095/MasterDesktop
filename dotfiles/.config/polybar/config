@@ -487,7 +487,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 1 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 1 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 1
 
 ###############################################################################
 [module/workspace2]
@@ -495,7 +495,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 2 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 2 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 2
 
 ###############################################################################
 [module/workspace3]
@@ -503,7 +503,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 3 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 3 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 3
 
 ###############################################################################
 [module/workspace4]
@@ -511,7 +511,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 4 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 4 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 4
 
 ###############################################################################
 [module/workspace5]
@@ -519,7 +519,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 5 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 5 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 5
 
 ###############################################################################
 [module/workspace6]
@@ -527,7 +527,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 6 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 6 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 6
 
 ###############################################################################
 [module/workspace7]
@@ -535,7 +535,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 7 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 7 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 7
 
 ###############################################################################
 [module/workspace8]
@@ -543,7 +543,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 8 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 8 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 8
 
 ###############################################################################
 [module/workspace9]
@@ -551,7 +551,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 9 
 label = "%output% "
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 9 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 9
 
 ###############################################################################
 [module/workspace10]
@@ -559,7 +559,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 10 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 10 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 10
 
 ###############################################################################
 [module/workspace11]
@@ -567,7 +567,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 11 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 11 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 11
 
 ###############################################################################
 [module/workspace12]
@@ -575,7 +575,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 12 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 12 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 12
 
 ###############################################################################
 [module/workspace13]
@@ -583,7 +583,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 13 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 13 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 13
 
 ###############################################################################
 [module/workspace14]
@@ -591,7 +591,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 14 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 14 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 14
 
 ###############################################################################
 [module/workspace15]
@@ -599,7 +599,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 15 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 15 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 15
 
 ###############################################################################
 [module/workspace16]
@@ -607,7 +607,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 16 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 16 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 16
 
 ###############################################################################
 [module/workspace17]
@@ -615,7 +615,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 17 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 17 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 17
 
 ###############################################################################
 [module/workspace18]
@@ -623,7 +623,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 18 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 18 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 18
 
 ###############################################################################
 [module/workspace19]
@@ -631,7 +631,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 19 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 19 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 19
 
 ###############################################################################
 [module/workspace20]
@@ -639,7 +639,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 20 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 20 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 20
 
 ###############################################################################
 [module/workspace21]
@@ -647,7 +647,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 21 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 21 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 21
 
 ###############################################################################
 [module/workspace22]
@@ -655,7 +655,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 22 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 22 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 22
 
 ###############################################################################
 [module/workspace23]
@@ -663,7 +663,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 23 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 23 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 23
 
 ###############################################################################
 [module/workspace24]
@@ -671,7 +671,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 24 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 24 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 24
 
 ###############################################################################
 [module/workspace25]
@@ -679,7 +679,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 25 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 25 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 25
 
 ###############################################################################
 [module/workspace26]
@@ -687,7 +687,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 26 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 26 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 26
 
 ###############################################################################
 [module/workspace27]
@@ -695,7 +695,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 27 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 27 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 27
 
 ###############################################################################
 [module/workspace28]
@@ -703,7 +703,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 28 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 28 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 28
 
 ###############################################################################
 [module/workspace29]
@@ -711,7 +711,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 29 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 29 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 29
 
 ###############################################################################
 [module/workspace30]
@@ -719,7 +719,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 30 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 30 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 30
 
 ###############################################################################
 [module/workspace31]
@@ -727,7 +727,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 31 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 31 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 31
 
 ###############################################################################
 [module/workspace32]
@@ -735,7 +735,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 32 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 32 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 32
 
 ###############################################################################
 [module/workspace33]
@@ -743,7 +743,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 33 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 33 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 33
 
 ###############################################################################
 [module/workspace34]
@@ -751,7 +751,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 34 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 34 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 34
 
 ###############################################################################
 [module/workspace35]
@@ -759,7 +759,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 35 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 35 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 35
 
 ###############################################################################
 [module/workspace36]
@@ -767,7 +767,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 36 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 36 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 36
 
 ###############################################################################
 [module/workspace37]
@@ -775,7 +775,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 37 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 37 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 37
 
 ###############################################################################
 [module/workspace38]
@@ -783,7 +783,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 38 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 38 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 38
 
 ###############################################################################
 [module/workspace39]
@@ -791,7 +791,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 39 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 39 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 39
 
 ###############################################################################
 [module/workspace40]
@@ -799,7 +799,7 @@ type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 40 
 label = "%output%"
 tail = true
-click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 40 ${monitor}
+click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 40
 
 ###############################################################################
 [module/volume2]
@@ -838,7 +838,7 @@ ramp-headphones-1 = 
 ###############################################################################
 [module/network]
 type = internal/network
-interface = enp3s0
+interface = {{INTERFACE}}
 
 interval = 1.0
 accumulate-stats = true

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-xdotool key $1
+i3-msg workspace $1
 
 for ctr in {1..40}
 do
