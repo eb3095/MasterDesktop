@@ -26,7 +26,7 @@ URL https://wallhaven.cc/user/rootkit
 * Wallpaper - https://wallhaven.cc/w/96w8e8
 
 ### PapirusDevelopmentTeam
-URL https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+URL https://github.com/PapirusDevelopmentTeam/
 * Papirus - https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
 ### Unknown
