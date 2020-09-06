@@ -17,8 +17,21 @@ Monitors are limited to 20 for now. Crazy right?! They are too static and config
 to make it more flexible.
 
 ### Install
-The installer for this does not yet work. Some reworking is in order to get specific modules functioning universally
-opposed to uniquely to my setup.
+The installer for this might not work yet. This has not been tested yet.
+
+```
+git clone https://github.com/eb3095/MasterDesktop
+cd MasterDesktop
+./install.sh
+```
+
+Silent Installation
+```
+git clone https://github.com/eb3095/MasterDesktop
+cd MasterDesktop
+./install.sh "Alt"
+```
+The argument is the i3 Mod key. Alt or Win. Case sensitive.
 
 ### Screenshots
 ![alt text](https://github.com/eb3095/MasterDesktop/blob/master/screenshots/DEScreen1.png "Desktop")
