@@ -13,7 +13,7 @@ function check_ico {
 function wait {
     while read i; do
         check_ico
-    done < <(ncat -w 5 -k -l 127.0.0.1 -p $1)
+    done < <(ncat -l -k 127.0.0.1 $1)
 }
 
 WORKSPACE=$1

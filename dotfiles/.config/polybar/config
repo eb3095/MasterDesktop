@@ -509,7 +509,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 3
 [module/workspace4]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 4 
-label = "%output% "
+label = "%output%"
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 4
 
@@ -541,7 +541,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 7
 [module/workspace8]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 8 
-label = "%output% "
+label = "%output%"
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 8
 
@@ -557,7 +557,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 9
 [module/workspace10]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 10 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 10
 
@@ -565,7 +565,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 10
 [module/workspace11]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 11 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 11
 
@@ -581,7 +581,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 12
 [module/workspace13]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 13 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 13
 
@@ -589,7 +589,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 13
 [module/workspace14]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 14 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 14
 
@@ -597,7 +597,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 14
 [module/workspace15]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 15 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 15
 
@@ -613,7 +613,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 16
 [module/workspace17]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 17 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 17
 
@@ -621,7 +621,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 17
 [module/workspace18]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 18 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 18
 
@@ -629,7 +629,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 18
 [module/workspace19]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 19 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 19
 
@@ -645,7 +645,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 20
 [module/workspace21]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 21 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 21
 
@@ -653,7 +653,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 21
 [module/workspace22]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 22 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 22
 
@@ -661,7 +661,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 22
 [module/workspace23]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 23 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 23
 
@@ -677,7 +677,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 24
 [module/workspace25]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 25 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 25
 
@@ -685,7 +685,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 25
 [module/workspace26]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 26 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 26
 
@@ -693,7 +693,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 26
 [module/workspace27]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 27 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 27
 
@@ -709,7 +709,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 28
 [module/workspace29]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 29 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 29
 
@@ -717,7 +717,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 29
 [module/workspace30]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 30 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 30
 
@@ -725,7 +725,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 30
 [module/workspace31]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 31 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 31
 
@@ -741,7 +741,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 32
 [module/workspace33]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 33 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 33
 
@@ -749,7 +749,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 33
 [module/workspace34]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 34 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 34
 
@@ -757,7 +757,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 34
 [module/workspace35]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 35 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 35
 
@@ -773,7 +773,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 36
 [module/workspace37]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 37 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 37
 
@@ -781,7 +781,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 37
 [module/workspace38]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 38 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 38
 
@@ -789,7 +789,7 @@ click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 38
 [module/workspace39]
 type = custom/script
 exec = ~/.config/master-desktop/scripts/workspaceIcon.sh 39 
-label = "%output%"
+label = "%output% "
 tail = true
 click-left = ~/.config/master-desktop/scripts/updateWorkspace.sh 39
 

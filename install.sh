@@ -2,14 +2,17 @@
 
 # Backup
 mkdir -p ~/.config/master-desktop/backup
-cp -rf ~/.config ~/.config/master-desktop/backup/
+cp -rf ~/.config ~/.config2
+cp -rf ~/.config2 ~/.config/master-desktop/backup/.config
 cp -rf ~/.bashrc ~/.config/master-desktop/backup/
 
 # Install dependencies
 trizen -S --noconfirm lxappearance gnome-control-center xorg-xfdttf-font-awesome feh dunst rofi \
 python-i3ipc i3lock dmenu i3-gaps siji-git nerd-fonts-complete inotify-tools maim redshift \
-picom-tryone-git tilix kdeconnect ethtool nmap net-tools jq kvantum-qt5 imagemagick xdotool \
-xclip dolphin gotop papirus-icon-theme dialog systemsettings
+picom-git tilix kdeconnect ethtool nmap net-tools jq kvantum-qt5 imagemagick xdotool \
+xclip dolphin gotop papirus-icon-theme dialog systemsettings python-papirus
+
+pip install python-mdp2
 
 # Get arguments
 ARG1=$1
@@ -42,7 +45,7 @@ else
         INTERFACE_LIST+=( "${INTERFACES[$c]}" )
         INTERFACE_LIST+=( "${INTERFACES[$c]}" )
     done
-    INTERFACE=$(bin/dialog --backtitle "Master Desktop" \
+    INTERFACE=$(dialog --backtitle "Master Desktop" \
             --title "Interface Selection" \
             --menu "Choose your default interface" 15 70 $count "${INTERFACE_LIST[@]}" \
             3>&1 1>&2 2>&3 3>&-)
@@ -50,7 +53,7 @@ fi
 
 # Get user mod key for i3
 if [ -z "${ARG2}" ]; then
-    MOD_KEY=$(bin/dialog --backtitle "Master Desktop" \
+    MOD_KEY=$(dialog --backtitle "Master Desktop" \
             --title "i3 Mod Key" \
             --menu "Select your mod key for i3" 15 70 2 "Alt Alt Win Win" \
             3>&1 1>&2 2>&3 3>&-)
@@ -74,7 +77,9 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 sed -i -e 's/bobby/powerline/g' ~/.bashrc
 
 # Install files
-cp -rf ./dotfiles/ ~/
+cp -rf ./dotfiles/.config ~/
+cp -rf ./dotfiles/.icons ~/
+cp -rf ./dotfiles/.themes ~/
 
 # Done!
 echo "Master Desktop installed. Logout and choose i3 in your login screen."
