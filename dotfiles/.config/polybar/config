@@ -308,7 +308,7 @@ foreground = #FFFFFF
 background = #1E222E
 font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
 
-modules-center = cpu
+modules-left = cpu
 
 ################################################################################
 [bar/memory]
@@ -326,7 +326,7 @@ foreground = #FFFFFF
 background = #1E222E
 font-0 = "FiraCode Nerd Font Mono:pixelsize=20;3"
 
-modules-center = memory
+modules-left = memory
 
 ################################################################################
 [bar/volume1]
